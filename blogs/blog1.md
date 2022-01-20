@@ -3,7 +3,7 @@
 
 ### Background
 
-My interest in computer science and really computers as a whole
+My interest in computer science and computers as a whole
 came from my dad, who has been a software engineer since the late
 '80s. One of the things he absolutely drilled into my head was
 to never buy into 'buzzwords'. For a long time I thought that
@@ -24,7 +24,7 @@ convergent technologies.` - [Kevin Fogarty](https://www.computerworld.com/articl
 
 ### What is Agility?
 
-When I read the Gartner report for the first time, I did not really
+When I read the Gartner report for the first time, I did not
 understand what they were referencing when they mentioned application or
 technical agility. I had a little intuition as to what it was just from 
 the english definition of the word, but the actual technical definition was
@@ -33,7 +33,8 @@ that cleared my confusion up. To me, agility is the ability for an application
 or applications to quickly adapt to changing business needs or environments. It
 makes sense that the most popular MSA products in the world are those that operate 
 on either enormous global scale (Amazon, Netflix) or work in industries that are constantly
-adapting to consumer needs (Pivotal, Microsoft). Those things are not exclusive either. 
+adapting to consumer needs (Pivotal, Microsoft). These products are not exclusively global or
+adapting to changing markets.
 I think that at least a proficiency will be almost a requirement for anyone working with
 large company infrastructure. It will likely be that global services and enterprises alike
 will be transitioning to MSA to support their scalability and agility requirements, meaning
