@@ -4,7 +4,7 @@ My business opportunity is a fully-online insurance company. I think that moving
 100% online will greatly reduce overhead, as you will not have to pay for as many buildings, less employees over all, and customer acquisition will be much faster. As well as that, this might be even better recieved in a world that has dealt with COVID-19 for almost 2 years. Online businesses are booming right now.
 
 
-[LAYOUT](overall-structure.jpeg)
+![LAYOUT](overall-structure.jpeg)
 
 ## Customer Service
 
@@ -12,7 +12,7 @@ This is the department that will directly deal with customer complaints, support
 
 ## Sales
 
-Sales is the second and last department with direct-customer contact. This will be almost entirely phone-based, as selling insurance through a chatbot or form submission is not a reliable way to guaruntee the policy is right for the customer. This will probably be the largest department just based on the amount of time it takes to finish a policy sale. This department will be wrapped in a load-balancer type system that distributes first-time callers to sales reps, but can also take a customer ID over the phone via the keypad to make sure returning customers recieve reps that are knowledgable about their specific policy, i.e a customer looking for car insurance will be brought to a sales rep that specializes in car insurance, etc etc.
+Sales is the second and last department with direct customer or vendor contact. This will be almost entirely phone-based, as selling insurance through a chatbot or form submission is not a reliable way to ensure the correct policy is being discussed for a customer or vendor. This will probably be the largest department, since to make money in insurance, you actually have to sell clients policies. It will also be split into two major sub-departments: cold-callers and call-recievers. COld callers are sales reps that go out and contact potential customers to try and sell them an insurance policy they may need. Their expertise will be more general, focusing more on informing potential customers rather than finishing a sale. If a customer is interested, they will be transferred to a call-reciever. Call recievers are the reps who actually finish policy sales, and are much more specific in their expertise. Call recievers will also recieve calls from independantly interested clients who are trying to purchase insurance as well.
 
 ## Legal
 
@@ -36,4 +36,7 @@ THe underwriting department actually writes and rewrites insurance policies that
 
 ## Deep Dive
 
-[DEEP_DIVE]()
+The team I performed my deep dive on was the Sales team. The reason I chose this team is because it has multiple moving parts, and the call-in nature of online insurance selling lends itself to an MSA design. Each policy sales rep will have access to a database for their specific policy information. This is actually an example of a bounded context, since to a customer a policy might just be a policy name or policy ID, to a sales rep a policy might be a set of rules or declarations, and to the call balancer the policy would be a mapping to a rep or set of reps that specialize in that policy. It is important to note that a single call reciever block represents a fleet of reps that are associated by the policy they specialize in. 
+
+
+![DEEP_DIVE](deep-dive.jpeg)
