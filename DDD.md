@@ -4,7 +4,7 @@ My business opportunity is a fully-online insurance company. I think that moving
 100% online will greatly reduce overhead, as you will not have to pay for as many buildings, less employees over all, and customer acquisition will be much faster. As well as that, this might be even better recieved in a world that has dealt with COVID-19 for almost 2 years. Online businesses are booming right now.
 
 
-[LAYOUT]()
+[LAYOUT](overall-structure.jpeg)
 
 ## Customer Service
 
