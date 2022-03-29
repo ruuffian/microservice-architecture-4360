@@ -12,7 +12,8 @@ variable = 10
 
 # Increments variable by one, then returns it
 def func() -> int:
-	return ++variable
+	variable = variable + 1
+	return variable
 
 print(func())
 ```
@@ -35,6 +36,7 @@ def func(var: int) -> int:
 	return var + 1
 
 variable = func(variable)
+print(variable)
 ```
 
 <p>
