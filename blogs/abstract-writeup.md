@@ -2,7 +2,7 @@ Liam Mackay
 <p align="center"><b>Microservice Bad Smells</b></p>
 
 <p>
-	So far in class, we have covered a lot of the things that a person SHOULD do when building a system of microservices. This includes (but is not limited to) services owning their data,  wrapping services in an API to reduce dependency, bounded contexts and more. However, something we have no touched upon is the idea of a bad practice. To me, a bad practice is something that is a commonc misuse or misunderstanding of some technology. An example would be something like the following, written in python:
+	So far in class, we have covered a lot of the things that a person SHOULD do when building a system of microservices. These include (but are not limited to) services owning their data,  wrapping services in an API to reduce dependency, bounded contexts and more. However, something we have not touched upon is the idea of a bad practice. To me, a bad practice is something that is a commonc misuse or misunderstanding of a particular technology. Below is an example of a bad practice, written in python:
 </p>
 
 ```python
@@ -30,5 +30,5 @@ variable = func(variable)
 ```
 
 <p>
-The above code accomplishes the exact same task as before, but does so in a much clearer manner. In fact, most bad practices that have to do with code structure tend to lean in the direction of "that technically works, but this way is much clearer or more maintanable". Other examples of bad practices can include pushing changes directly to production branches, submitting code without testing, or over/under commenting code. This to me is the meat-and-potatoes of production-level code, as many habits that developers pick up in school or in personal projects actually tend to be counter-productive in an enterprise environment. Hopefully, through careful study of the academic paper <a href="http://www.valentinalenarduzzi.it/papers/Paper_id24.pdf"> <i>On the Definition of Microservice Bad Smells</i> </a> I can both learn about the widely accepted bad practices in cloud and microservice systems designs and also present design these techniques to the rest of the class.
+The above code accomplishes the exact same task as before, but does so in a much clearer manner. In fact, most bad practices related to code structure tend to lean in the direction of "that technically works, but this way is much clearer or more maintainable". Other examples of bad practices can include pushing changes directly to production branches, submitting code without testing, or over/under commenting code. This to me is the meat-and-potatoes of production-level code, as many habits that developers pick up in school or in personal projects actually tend to be counter-productive in an enterprise environment. Hopefully, through careful study of the academic paper <a href="http://www.valentinalenarduzzi.it/papers/Paper_id24.pdf"> <i>On the Definition of Microservice Bad Smells</i> </a> I can both learn about the widely accepted bad practices in cloud and microservice systems designs and also present design these techniques to the rest of the class.
 </p>
