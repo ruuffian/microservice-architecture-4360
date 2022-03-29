@@ -2,7 +2,7 @@ Liam Mackay
 <p align="center"><b>Microservice Bad Smells</b></p>
 
 <p>
-	So far in class, we have covered a lot of the things that a person SHOULD do when building a system of microservices. These include (but are not limited to) services owning their data,  wrapping services in an API to reduce dependency, bounded contexts and more. However, something we have not touched upon is the idea of a bad practice. To me, a bad practice is something that is a commonc misuse or misunderstanding of a particular technology. Below is an example of a bad practice, written in python:
+	So far in class, we have covered a lot of the things that a person *should* do when building a system of microservices. These include (but are not limited to) services owning their data,  wrapping services in an API to reduce dependency, bounded contexts and more. However, something we have not touched upon is the idea of a bad practice. To me, a bad practice is something that is a commonc misuse or misunderstanding of a particular technology. Below is an example of a bad practice, written in python:
 </p>
 
 ```python
